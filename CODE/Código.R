@@ -1,6 +1,11 @@
-rm(list = ls())
-# Cargar paquetes
+"""
+Este código tiene la función de agrubar, combinar, y extraer variables de dos bases de datos
+para así poder exportar la base de datos en Excel.
 
+authors: Juliana López
+Laura Otalora
+Isabella Perilla
+"""
 library(dplyr)
 library(tidyr)
 library(haven)
